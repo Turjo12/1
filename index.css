@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.header{
+    background-image:url("/images/banner/banner2.png");
+ width: 100%;
+    height:auto;
+    position: absolute;
+    background-size: cover;
+   
+}
+.hea{
+    float: right;
+    text-align: right;
+    margin-top: 180px;
+    margin-right: 100px;
+}
+
+/* scorllpaqr starts here */
+
+::-webkit-scrollbar{
+    width: 10px;
+   
+    }
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+    }
+
+
+
+
+/* scorllpaqr ends here */
+
+
+
+.m{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+
+}
+
+.msx{
+    margin-top: 50px;
+width: 494px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+/* Dark 02 */
+
+color: #444343;
+}
+
+
+.btn{
+width: 160px;
+height: 64px;
+background: #F15B22;
+border-radius: 5px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+.op{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.ops{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #28a50d !important;
+    font-size: 20px;
+}
+.container{
+    margin: auto;
+}
+.mp{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 900;
+}
+
+
+.xox{
+    margin-top: 50px;
+    width: 416px;
+height: 104px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-left: 100px;
+}
+
+
+.cheaks{
+font-size: 22px;
+}
+
+
+.my-pans{
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center
+}
+
+.seclection{
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.imgase{
+    display:inline-block;
+}
+.sma{
+    font-size: 20px;
+    color: rgb(78, 75, 75);
+    font-weight: 700;
+
+}
+
+.off-margin{
+    margin-right: 0;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #F15B22;
+}
+
+.watch{
+    background:linear-gradient(to right, #F15B22, #f15d2200), url("/images/watch.png");
+height:300px;
+width: 1100px;
+background-position: center;
+background-repeat: no-repeat;
+margin: auto;
+border-radius: 20px;
+
+
+
+margin-top: 500px;
+}
+
+
+.watch-all{
+    padding: 90px ;
+}
+
+
+.text{
+
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color:white;
+}
+
+.btn-2{
+
+    width: 160px;
+    height: 64px;    
+    background: #FFFFFF;
+    border-radius: 5px;
+
+
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #F15B22;
+}
+
+footer{
+    width: 100%;
+height: 677px;
+left: 0px;
+top: 2646.3px;
+color: #FFFFFF;
+/* Dark 01 */
+background: #151414;
+
+
+}
+
+
+.texts{
+    width: 500px;
+    margin-top: 180px;
+}
+.boxs{
+    margin-top: 180px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+
+
+.t{
+
+    width: 148px;
+    height: 53px;    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    
+    color: #F8F8F8;
+}
+
+.p{
+    width: 485px;
+height: 78px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FFFFFF;
+}
+
+.x{
+    margin-top: -50px;
+}
+
+.in{
+   width: 300px;
+   height: 50px;
+   border-radius: 5px; 
+   background-color: #151414;
+   border: #FFFFFF 1px solid;
+}
+
+.fa-facebook {
+background-color: #F8F8F8;
+border-radius: 50%;
+background-color: white;
+
+    color: #244794;
+    
+}
+
+.fa-twitter{
+    color: #244794;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-youtube{
+    color: red;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+.xaxa{
+    margin-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .hea{
+        margin-top: 450px;
+        margin-right: 50px;
+      
+    }
+
+.cheaks{
+    font-size: 18px;
+    }
+
+    .m{
+        color: rgb(133, 85, 221);
+    }
+    .xox{
+text-align: center;
+align-items: center;
+margin-left: 30px;
+    }
+
+
+    .msx{
+display: block;
+margin: auto;
+text-align: center;
+width: 300px;
+margin-top: 50px;
+margin-bottom: 60px;
+    }
+    
+.btn{
+    display: block;
+    margin: auto;
+}
+
+.ops{
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+.seclection{
+
+    display: block;
+    
+}
+.container{
+    display: block;
+    margin: auto;
+}
+
+
+.seclection{
+    margin-left: 00px;
+margin-top: 50px;
+}
+
+.watch{
+    width: auto;
+    height:305px;
+}
+
+
+.wrapper{
+    display: block;
+   overflow: hidden;
+    
+
+}
+
+.texts{
+    width: 500px;
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+.boxs{
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+}
+
+
